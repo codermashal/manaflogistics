@@ -70,7 +70,7 @@
         .filter(function (r) { return r[1]; })
         .map(function (r) { return r[0] + ": " + r[1]; });
       const text = [L[0]].concat(rows).join("\n");
-      window.open("https://wa.me/966551282248?text=" + encodeURIComponent(text), "_blank", "noopener");
+      window.open("https://wa.me/966531822246?text=" + encodeURIComponent(text), "_blank", "noopener");
     });
   }
 
