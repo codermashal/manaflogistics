@@ -1,0 +1,45 @@
+/* ==========================================================
+   tokens.css — Design tokens (colors, spacing, type, shadows)
+   ========================================================== */
+:root {
+  /* Brand */
+  --red: #d91f26;
+  --red-dark: #b3151b;
+  --navy: #0a3265;
+  --navy-deep: #06193a;
+  --navy-ink: #0b1c3a;
+  --steel: #718391;
+
+  /* Neutrals */
+  --ink: #161a23;
+  --muted: #5d6470;
+  --line: #e6eaf1;
+  --soft: #f4f7fb;
+  --white: #ffffff;
+
+  /* Gradients */
+  --grad-brand: linear-gradient(135deg, var(--red) 0%, #ff4b52 100%);
+  --grad-navy: linear-gradient(135deg, var(--navy-deep) 0%, var(--navy) 100%);
+
+  /* Typography */
+  --font-en: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-ar: "Cairo", "Poppins", system-ui, "Segoe UI", Tahoma, Arial, sans-serif;
+  --font: var(--font-en);
+
+  /* Layout */
+  --max: 1200px;
+  --header-h: 76px;
+  --radius: 14px;
+  --radius-lg: 22px;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 14px rgba(10, 25, 55, .08);
+  --shadow: 0 10px 30px rgba(10, 25, 55, .14);
+  --shadow-lg: 0 24px 55px rgba(10, 25, 55, .26);
+
+  /* Motion */
+  --ease: cubic-bezier(.22, .61, .36, 1);
+  --t: .35s var(--ease);
+}
+
+html[lang="ar"] { --font: var(--font-ar); }
